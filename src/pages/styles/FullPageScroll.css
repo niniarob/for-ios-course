@@ -4,24 +4,24 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .fullpage-section {
   /* border: 2px solid red; */
-  /* height: 100vh; */
+  height: 100vh;
   /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .content{
-    width: 90%;
+    /* width: 94%; */
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border: 1px solid rgb(0, 255, 42);
+    /* justify-content: space-evenly; */
+    /* border: 1px solid rgb(0, 255, 42); */
 }
 h1{
     color: azure;
@@ -30,7 +30,7 @@ h1{
     margin-bottom: 60px;
 }
 .des-img{
-    width: 70%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     /* border: 1px solid green; */
@@ -47,10 +47,11 @@ h1{
 }
 .description{   
     color: azure;
+    /* border: 1px solid red; */
 }
 .img{
     width: 45%;
-    height: 400px;
+    height: 450px;
     background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/318984148/original/d7f615543fcf18b54365fc9822dfc82354c582d2/build-your-android-and-ios-app.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,22 +61,28 @@ h1{
     border-bottom-left-radius: 30px;
 }
 .lists{
-  width: 90%;
+  width: 85%;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid red; */
+  /* margin-top: 5px; */
+  /* border: 1px solid rgb(43, 255, 0); */
 }
 .first-list-box{
-  width: 47%;
+  width: 48%;
   /* border: 1px solid green; */
+  /* padding-bottom: 3%; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: -40px; */
+  /* margin-top: 50px; */
 }
 .gap{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  /* gap: 30px; */
 }
 .second-list-box{
-  width: 47%;
+  width: 48%;
   /* border: 1px solid green; */
 }
 p{
@@ -89,28 +96,33 @@ span{
   font-size: 22px;
 }
 .proreate-img-text{
-  width: 90%;
+  width: 85%;
   display: flex;
-  justify-content: space-around;
-  /* border: 1px solid red; */
+  justify-content: space-between;
+  /* border: 1px solid rgb(60, 255, 0); */
 }
 .proreate-logo-img{
   width: 35%;
-  height: auto;
+  height: 450px;
+  /* height: auto; */
   background-image: url('https://asset.brandfetch.io/id3MSxhWf4/id9ky8b2tP.jpeg');
   background-size: cover;
   background-position: center;
 }
+.layout-accessibility{
+  width: 60%;
+  /* border: 1px solid red; */
+}
 .gestures-content{
-  width: 90%;
+  width: 85%;
   /* height: 100vh; */
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   /* border: 1px solid red; */
 }
 .gestures{
-  width: 50%;
+  width: 60%;
   /* border: 1px solid green; */
 }
 .gestures-img{
@@ -132,6 +144,7 @@ span{
 }
 .same-style-bck-img {
   width: 100%;
+  /* border: 1px solid rgb(255, 208, 0); */
   /* height: 100vh; */
   background-repeat: no-repeat;
   background-size: cover;

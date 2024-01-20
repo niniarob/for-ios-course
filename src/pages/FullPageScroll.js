@@ -154,9 +154,9 @@ const FullPageScroll = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.3 }}
-                className="paragraph"
+                className="paragraph layout-accessibility"
               >
-                <p className="description proreate-desc">
+                <p className="description proreate-desc ">
                   Layout :
                   <span>
                     {" "}
@@ -170,7 +170,7 @@ const FullPageScroll = () => {
                     Undo, Redo და Modify ღილაკები.
                   </span>
                 </p>
-                <p className="description proreate-desc">
+                {/* <p className="description proreate-desc">
                   Accessibility :
                   <span>
                     როგორც ჩვენთვის ცნობილია, Procreate ერთ-ერთი ყველაზე
@@ -184,7 +184,7 @@ const FullPageScroll = () => {
                     იმისდა მიხედვით თუ როგორ გვჭირდება და მეტად კომფორტულს ქმნის
                     აპლიკაციას გამოსაყენებლად.{" "}
                   </span>
-                </p>
+                </p> */}
               </motion.div>
               <motion.div
                 variants={fadeIn("left", 0.3)}
