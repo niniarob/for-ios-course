@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.fullpage-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+h1{
+    color: azure;
+    font-family: 'Poppins';
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.des-img{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.paragraph{
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    font-size: 18px;
+    line-height: 28px;
+}
+.description{   
+    color: azure;
+}
+.img{
+    width: 45%;
+    height: 400px;
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/318984148/original/d7f615543fcf18b54365fc9822dfc82354c582d2/build-your-android-and-ios-app.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 130px;
+    border-bottom-right-radius: 130px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.same-style-bck-img {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bck-img-one {
+  background-image: url("https://img.freepik.com/premium-vector/technology-background-with-hitech-digital-data_29971-1430.jpg");
+}
+.bck-img-two {
+  background-image: url("https://img.freepik.com/premium-vector/abstract-plexus-technology-futuristic-network-with-contrast-level-gradient-blue-background_107708-76.jpg");
+}
+.bck-img-three {
+  background-image: url("https://img.freepik.com/premium-vector/technology-background-with-hitech-digital-data_29971-1430.jpg");
+}
+.bck-img-four {
+  background-image: url("https://img.freepik.com/premium-vector/abstract-plexus-technology-futuristic-network-with-contrast-level-gradient-blue-background_107708-76.jpg");
+}
+.bck-img-five {
+  background-image: url("https://img.freepik.com/premium-vector/technology-background-with-hitech-digital-data_29971-1430.jpg");
+}
+.bck-img-six {
+  background-image: url("https://img.freepik.com/premium-vector/abstract-plexus-technology-futuristic-network-with-contrast-level-gradient-blue-background_107708-76.jpg");
+}  
+  
