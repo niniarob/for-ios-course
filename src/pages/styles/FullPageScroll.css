@@ -40,8 +40,8 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     text-align: start;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 25px;
 }
 .description{   
     color: azure;
@@ -81,10 +81,10 @@ p{
   line-height: 30px;
   font-family: 'Poppins';
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
 }
 span{
-  font-size: 22px;
+  font-size: 20px;
 }
 .proreate-img-text{
   width: 90%;
@@ -113,7 +113,7 @@ span{
 }
 .gestures-img{
   width: 35%;
-  height: 450px;
+  height: 400px;
   background-image: url('https://strapi.dhiwise.com/uploads/618fa90c201104b94458e1fb_64e85b7f096b09245241dccc_flutter_gestures_OG_Image_9fde3f7b3a.jpg');
   /* background-repeat: no-repeat; */
   background-position: center;
