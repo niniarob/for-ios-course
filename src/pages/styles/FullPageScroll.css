@@ -118,13 +118,15 @@ span{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 .img-style{
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 130px;
   border-bottom-left-radius: 130px;
+}
+.user-friend-img{
+  background-image: url('https://www.hostingplus.pe/wp-content/uploads/2021/07/tech-devices-and-icons-connected-to-digital-planet-earth.jpg');
 }
 .same-style-bck-img {
   width: 100%;
