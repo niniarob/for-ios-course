@@ -57,6 +57,36 @@ h1{
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+.lists{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  /* gap: 30px; */
+}
+.first-list-box{
+  width: 47%;
+  /* border: 1px solid green; */
+}
+.gap{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.second-list-box{
+  width: 47%;
+  /* border: 1px solid green; */
+}
+p{
+  color: white;
+  line-height: 30px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+}
+span{
+  font-size: 22px;
+}
 .same-style-bck-img {
   width: 100%;
   height: 100vh;

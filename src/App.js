@@ -1,5 +1,5 @@
 import './App.css';
-import FullPageScroll from './FullPageScroll';
+import FullPageScroll from './pages/FullPageScroll';
 
 function App() {
   return (
