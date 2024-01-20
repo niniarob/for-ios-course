@@ -4,22 +4,24 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    overflow: hidden;
 }
 .fullpage-section {
-  height: 100vh;
-  width: 100%;
+  /* border: 2px solid red; */
+  /* height: 100vh; */
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .content{
-    width: 100%;
+    width: 90%;
     /* height: 100vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid red; */
+    border: 1px solid rgb(0, 255, 42);
 }
 h1{
     color: azure;
@@ -40,15 +42,15 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     text-align: start;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 28px;
 }
 .description{   
     color: azure;
 }
 .img{
     width: 45%;
-    /* height: 400px; */
+    height: 400px;
     background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/318984148/original/d7f615543fcf18b54365fc9822dfc82354c582d2/build-your-android-and-ios-app.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,10 +83,10 @@ p{
   line-height: 30px;
   font-family: 'Poppins';
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
 }
 span{
-  font-size: 20px;
+  font-size: 22px;
 }
 .proreate-img-text{
   width: 90%;
@@ -94,14 +96,14 @@ span{
 }
 .proreate-logo-img{
   width: 35%;
-  /* height: ; */
+  height: auto;
   background-image: url('https://asset.brandfetch.io/id3MSxhWf4/id9ky8b2tP.jpeg');
   background-size: cover;
   background-position: center;
 }
 .gestures-content{
   width: 90%;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -113,9 +115,9 @@ span{
 }
 .gestures-img{
   width: 35%;
-  height: 400px;
+  height: 450px;
   background-image: url('https://strapi.dhiwise.com/uploads/618fa90c201104b94458e1fb_64e85b7f096b09245241dccc_flutter_gestures_OG_Image_9fde3f7b3a.jpg');
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
