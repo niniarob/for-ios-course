@@ -141,6 +141,28 @@ const FullPageScroll = () => {
             </div>
           </div>
         </FullpageSection>
+        <FullpageSection className="fullpage-section bck-img-four same-style-bck-img">
+          <div className="content">
+            <div className="procreate-content">
+              <motion.div
+                variants={fadeIn("down", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.3 }}
+                className="procreate-img img-style"
+              ></motion.div>
+              <motion.p
+                variants={fadeIn("up", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.3 }}
+                className="procreate-text paragraph gap-size"
+              >
+                ვიდრე ჩემს მიერ არჩეული აპს, Procreate-ის, განხილვას დავიწყებ მოკლე შესავალს შემოგთავაზებთ აპის შესახებ, Procreate არის ილუსტრაციის, ფერწერისა და ესკიზის აპლიკაცია, რომელიც შექმნილია ექსკლუზიურად ipad-თვის და შემდგომ უკვე შეიქმნა Procreate Dreams, რომელიც მხარს უჭერს iphone-ს დიზაინს. როგორც ასეთი Procreate არ გამოიყენება Android მოწყობილობებზე და დესკტოპ კომპიუტერებზე, ის ყველაზე მეტად ჰგავს Adobe illustrator-ს და Adobe Photoshop-ს, თუმცა მათ შორის ბევრი განმასხვავებელი ნიშანია.  ათ წელზე მეტია მსოფლიო დონის აპლიკაცია ემსახურება ყველას, ვისაც სურვილი აქვს შქმნას მაღალი ხარისხის ხელოვნების ნიმუშები: დიზაინერებს, გრაფიკოსებს, ილუსტრატორებს, ანიმატორებს და სხვა. 2022 წელს Procreate გახდა Apple დიზაინის მეორე ჯილდოს მფლობელი, ეს ჯილდო მას აპში შესაძლებლობების გაფართოებამ მოუტანა. აპი ლოკალიზემულია 16 ენაზე. რომ შევაჯამო აპი დამწყებ თუ პროფესიონალ ხელოვნების მოყვარულ ხალხს საშუალებას აძლევს მaთთვის სასურველი ადგილიდან იმუშაონ უნიკალური აპლიკაციით.
+              </motion.p>
+            </div>
+          </div>
+        </FullpageSection>
         <FullpageSection className="fullpage-section bck-img-three same-style-bck-img">
           <div className="content">
             <motion.h1
@@ -262,7 +284,8 @@ const FullPageScroll = () => {
                   ფუნქციებს, რაც მომხმარებლებს გაუადვილებს მრავალ ფენასთან
                   მუშაობას, მათ გადაწყობას, გამჭვირვალობის რეგულირებას და
                   შერწყმის რეჟიმების გამოყენებას. ეს მოქნილობა გადამწყვეტია
-                  ციფრული მხატვრებისთვის, რომლებიც მუშაობენ რთულ ილუსტრაციებზე.              
+                  ციფრული მხატვრებისთვის, რომლებიც მუშაობენ რთულ ილუსტრაციებზე.
+                
               </motion.p>
               <motion.div
                 variants={fadeIn("up", 0.3)}

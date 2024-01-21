@@ -19,7 +19,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid rgb(0, 255, 42); */
+  /* border: 1px solid rgb(255, 0, 153); */
 }
 h1{
     color: azure;
@@ -88,6 +88,24 @@ p{
 span{
   font-size: 19px;
 }
+.procreate-content{
+  width: 1140px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.procreate-img{
+  width: 35%;
+  height:400px;
+  background-image: url('https://asset.brandfetch.io/id3MSxhWf4/id9ky8b2tP.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.gap-size{
+  width: 60%;
+}
 .proreate-img-text{
   display: flex;
   justify-content: space-between;
@@ -96,7 +114,7 @@ span{
 }
 .proreate-logo-img{
   width: 35%;
-  background-image: url('https://asset.brandfetch.io/id3MSxhWf4/id9ky8b2tP.jpeg');
+  background-image: url('https://blog.openreplay.com/images/implementing-psychology-in-design-for-differently-abled-users/images/hero.png');
   background-size: cover;
   background-position: center;
 }
