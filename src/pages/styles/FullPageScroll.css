@@ -49,8 +49,9 @@ h1{
 .img{
     width: 45%;
     height: 450px;
-    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/318984148/original/d7f615543fcf18b54365fc9822dfc82354c582d2/build-your-android-and-ios-app.jpeg');
+    background-image: url('https://developers.apple.com/design/human-interface-guidelines/images/intro/technologies/technology-SIWA-intro_2x.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     border-top-left-radius: 130px;
     border-bottom-right-radius: 130px;
