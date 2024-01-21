@@ -6,7 +6,6 @@ body{
     font-family: 'Poppins';
 }
 .fullpage-section {
-  /* border: 2px solid red; */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,12 +13,10 @@ body{
 }
 .content{
   max-width: 1140px;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid rgb(255, 0, 153); */
 }
 h1{
     color: azure;
@@ -30,11 +27,9 @@ h1{
 .des-img{
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid rgb(128, 0, 0); */
 }
 .paragraph{
     width: 50%;
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -44,7 +39,6 @@ h1{
 }
 .description{   
     color: azure;
-    /* border: 1px solid red; */
 }
 .img{
     width: 45%;
@@ -61,10 +55,8 @@ h1{
 .lists{
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid rgb(255, 0, 195); */
 }
 .princips{
-  /* border: 1px solid yellow; */
   margin-bottom: 20px;
   font-size: 18px;
 }
@@ -77,7 +69,6 @@ h1{
 }
 .second-list-box{
   width: 48%;
-  /* border: 1px solid green; */
 }
 p{
   color: white;
@@ -91,7 +82,6 @@ span{
 }
 .procreate-content{
   width: 1140px;
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-between
@@ -111,7 +101,6 @@ span{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid rgb(60, 255, 0); */
 }
 .proreate-logo-img{
   width: 35%;
@@ -121,17 +110,14 @@ span{
 }
 .layout-accessibility{
   width: 60%;
-  /* border: 1px solid red; */
 }
 .gestures-content{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
 }
 .gestures{
   width: 55%;
-  /* border: 1px solid green; */
 }
 .gestures-img{
   width: 40%;
@@ -152,7 +138,6 @@ span{
 }
 .same-style-bck-img {
   width: 100%;
-  /* border: 1px solid rgb(255, 208, 0); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
